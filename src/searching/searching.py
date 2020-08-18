@@ -1,3 +1,5 @@
+#linear search
+
 def linear_search(arr, target):
     # Your code here
     for i in range(len(arr)-1)
