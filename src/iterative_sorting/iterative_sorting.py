@@ -20,6 +20,19 @@ def selection_sort(arr):
 
     return arr
 
+#def selection_sort(items):
+#    # Outer Loop
+#    for i in range(0, len(items) - 1):
+#        cur_index = i
+#        smallest_index = cur_index
+#        for j in range(cur_index + 1, len(items)):
+#            if items[j] < items[smallest_index]:
+#                smallest_index = j
+#
+#        items[smallest_index], items[cur_index] = items[cur_index], items[smallest_index]
+#
+#    return items
+
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort(arr):
     # Your code here
@@ -55,6 +68,5 @@ What is the time and space complexity of the counting sort algorithm?
 '''
 def counting_sort(arr, maximum=None):
     # Your code here
-
 
     return arr
